@@ -1,0 +1,362 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#ccc;
+  min-height: 100vh;
+}
+.logo{
+  background:#141220;
+  padding: 20px;
+  width: 100%;
+}
+.logo h1{
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+h1{
+  color: #fff;
+  text-shadow:
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 10px rgba(0, 178, 255, 1),
+        0 0 20px rgba(0, 178, 255, 1),
+        0 0 40px rgba(38, 104, 127, 1),
+        0 0 80px rgba(38, 104, 127, 1),
+        0 0 90px rgba(38, 104, 127, 1),
+        0 0 100px rgba(38, 104, 127, 1),
+        0 0 140px rgba(38, 104, 127, 1),
+        0 0 180px rgba(38, 104, 127, 1);
+}
+@media screen and (max-width:800px ){
+ .logo{
+   position: fixed;
+    top: -100%;
+  }
+}
+header{
+  width: 100%;
+}
+header nav{
+  width: 100%;
+  /*max-width: 1200px;*/
+  border-top: 1px solid #ccc;
+  background: #141220;
+}
+.menu_bar{
+  display: none;
+}
+header nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  list-style: none;
+}
+header nav ul li{
+  float: left;
+}
+header nav ul li a{
+  color: #ccc;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+header nav ul li span{
+  margin-right: 10px;
+}
+header nav ul li a:hover{
+  background: #6A5ACD;
+}
+
+@media screen and (max-width:800px ){
+  header nav{
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+  }
+  header nav ul{
+    margin-left: 0;
+    display: block;
+  }
+  header nav ul li{
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+  }
+  .bt-menu{
+    text-shadow:
+          0 0 5px rgba(0, 178, 255, 1),
+          0 0 10px rgba(0, 178, 255, 1),
+          0 0 20px rgba(0, 178, 255, 1),
+          0 0 40px rgba(38, 104, 127, 1),
+          0 0 80px rgba(38, 104, 127, 1),
+          0 0 90px rgba(38, 104, 127, 1),
+          0 0 100px rgba(38, 104, 127, 1),
+          0 0 140px rgba(38, 104, 127, 1),
+          0 0 180px rgba(38, 104, 127, 1);
+  }
+  .menu_bar{
+    display: block;
+    width: 100%;
+  }
+  .menu_bar .bt-menu{
+    display: block;
+    padding: 20px;
+    background: #141220;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .menu_bar span{
+    float: right;
+  }
+}
+
+.contenedor{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.formu{
+  padding: 15px;
+  background: #141220;
+  width: 100%;
+  margin: auto;
+  font-family: arial;
+  color: #ccc;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+}
+.formu input{
+  padding: 10px;
+  margin: 10px;
+}
+.IN{
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+background: #4B0082;
+border: none;
+color: #ccc;
+}
+header legend{
+  font-size: 2em;
+}
+div .recordar{
+  text-align: center;
+}
+.recordar{
+  color: #ccc;
+}
+.form-reg{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  align-items:center;
+  width: 50%;
+  border-radius: 3px;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+
+}
+.regisc{
+  width: 100%;
+  display: flex;
+}
+
+.lege{
+  font-weight: bold;
+  font-family: arial;
+  color: #ccc;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+.form1{
+  background: #141220;
+  padding: 3px;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.form1 input{
+  text-align: center;
+}
+ .boton{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+  background: #4B0082;
+  color: #ccc;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.cajita{
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  margin: 1px;
+  height: 45%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  width: 48%;
+  float: right;
+  float: center;
+}
+
+.cajita input{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.cajita span{
+  color: red;
+}
+.span{
+  color: red;
+}
+div .usuario{
+  padding: 10px;
+  margin: 10px;
+}
+.introcaja{
+  color: #ccc;
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.8;
+  width: 50%;
+  font-size: 30px;
+  text-align: right;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  padding-top: 100px;
+}
+.introcaja legend{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  }
+  .introcaja p{
+  text-align: center;
+  padding-bottom: 10px;
+  }
+@media screen and (max-width:800px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedor form{
+    display: flex;
+    flex-direction: column;
+  }
+  .introcaja{
+    width: 50%;
+    color:white;
+    width: 100vw;
+    background-color: rgba(9,6,15,  0.7);
+  }
+  .regisc{
+    display: flex;
+    flex-direction: column;
+  }
+
+.form-reg{
+  width: 100%;
+  align-items: center;
+}
+
+.cajita{
+  width: 100%;
+}
+
+.introcaja p{
+  font-size: 20px;
+  text-align: center;
+}
+.introcaja legend{
+  text-align: center;
+}
+
+form button{
+ justify-content: center;
+}
+  }
+  footer{
+    width: 100%;
+    background: #141220;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+  }
+  footer ul{
+    list-style: none;
+    margin-right: 50px;
+  }
+  footer ul li{
+    margin: 10px;
+  }
+  footer ul li a{
+    text-decoration: none;
+  }
+  footer ul li a span{
+    color: #ccc;
+  }
+  @media screen and (max-width:800px ){
+    footer ul{
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+
+    }
+  }
+  .footer-2{
+    display: flex;
+    margin: 30px;
+  }
+  .footer-2 span{
+    font-size: 20px;
+  }
+  .footer-3 a{
+    color: #ccc;
+    font-size: 15px;
+  }
+  .footer-3 span{
+    margin-right: 10px;
+  }
+  .footer-4 a{
+    color: #ccc;
+    font-size: 15px;
+  }
+  .footer-4 span{
+    margin-right: 10px;
+  }
+  article{
+    background: #141220;
+    display: flex;
+    justify-content: center;
+  }
+  .copy{
+  padding: 10px;
+  color: #ccc;
+  }

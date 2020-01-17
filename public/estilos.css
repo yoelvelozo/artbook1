@@ -1,0 +1,40 @@
+body{
+background-color: rgb(187, 140, 207);
+}
+.caja_c{
+    width:500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 10%;
+    position: fixed;
+}
+.perfil{
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: #161416;
+    text-align: center;
+    margin-left: 100px;
+}
+.estilo{
+  display: inline-block;
+}
+.man{
+  width: 300px;
+  height: 200px;
+}
+.com{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+}
+.rea{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+}
+.ani{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+}
